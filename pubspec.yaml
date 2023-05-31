@@ -1,0 +1,24 @@
+name: calendar_issue
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter_hooks: ^0.18.6
+  calendar_day_view: 
+    git:
+      url: https://github.com/Paul-Todd/calendar_day_view
+      
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
